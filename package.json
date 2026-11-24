@@ -1,0 +1,12 @@
+{
+  "name": "google-toolbox-for-mac-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs"
+  },
+  "dependencies": {
+    "marked": "15.0.12",
+    "sanitize-html": "2.17.0"
+  }
+}
